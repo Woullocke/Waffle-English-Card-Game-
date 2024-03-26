@@ -1,0 +1,27 @@
+
+/* Class = "UIButton"; configuration.title = "Меню"; ObjectID = "94A-8N-LjW"; */
+"94A-8N-LjW.configuration.title" = "Меню";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "94A-8N-LjW"; */
+"94A-8N-LjW.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "PlayZone"; ObjectID = "BYZ-38-t0r"; */
+"BYZ-38-t0r.title" = "PlayZone";
+
+/* Class = "UILabel"; text = "ИНФОРМАЦИЯ ОБ ИГРЕ"; ObjectID = "FMn-DU-W3O"; */
+"FMn-DU-W3O.text" = "ИНФОРМАЦИЯ ОБ ИГРЕ";
+
+/* Class = "UIButton"; configuration.title = "Waffle!"; ObjectID = "HcH-TE-Mg1"; */
+"HcH-TE-Mg1.configuration.title" = "Waffle!";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HcH-TE-Mg1"; */
+"HcH-TE-Mg1.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Menu"; ObjectID = "M3k-gA-uxb"; */
+"M3k-gA-uxb.title" = "Menu";
+
+/* Class = "UIButton"; configuration.title = "ИГРАТЬ"; ObjectID = "NQS-KN-odI"; */
+"NQS-KN-odI.configuration.title" = "ИГРАТЬ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "NQS-KN-odI"; */
+"NQS-KN-odI.normalTitle" = "Button";
