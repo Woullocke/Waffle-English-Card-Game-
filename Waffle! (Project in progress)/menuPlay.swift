@@ -30,7 +30,7 @@ class menuPlay: UIViewController {
         view.endEditing(true)
     }
     
-    @IBAction func stepperButton(_ sender: UIStepper) {
+    @IBAction func stepperButton(_ sender: UIStepper) { // работа с степпером
         let value = Int(sender.value)
         numberPlayer.text = "\(value)"
     }
