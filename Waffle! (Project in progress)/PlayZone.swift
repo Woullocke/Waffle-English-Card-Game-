@@ -17,6 +17,4 @@ class PlayZone: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
-    //даня лох
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M3k-gA-uxb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M3k-gA-uxb">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,20 +16,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Основа rjytw" translatesAutoresizingMaskIntoConstraints="NO" id="ChB-9w-gYk">
-                                <rect key="frame" x="-6" y="-7" width="404" height="892"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="NQS-KN-odI">
-                                <rect key="frame" x="74" y="445" width="245" height="116"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NQS-KN-odI">
+                                <rect key="frame" x="74" y="458.66666666666669" width="245" height="96.000000000000057"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="ИГРАТЬ"/>
-                                <buttonConfiguration key="configuration" style="filled" title="PLAY" cornerStyle="dynamic" titleAlignment="center">
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="dynamic" titleAlignment="center">
                                     <backgroundConfiguration key="background" cornerRadius="0.0"/>
-                                    <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="71"/>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="PLAY">
+                                            <attributes>
+                                                <font key="NSFont" size="71" name="ArialRoundedMTBold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
                                     <attributedString key="attributedSubtitle"/>
                                     <color key="baseForegroundColor" red="0.38823530080000002" green="0.2352941036" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
@@ -38,18 +40,16 @@
                                     <segue destination="3kr-jH-pVg" kind="modal" modalPresentationStyle="fullScreen" id="by2-Cd-5H3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocL-ka-XPH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocL-ka-XPH">
                                 <rect key="frame" x="142" y="708" width="109" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Settings">
                                     <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.38823530080000002" green="0.2352941036" blue="0.19607841970000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBB-sK-Jxf">
-                                <rect key="frame" x="145" y="652" width="103" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBB-sK-Jxf">
+                                <rect key="frame" x="145" y="645.66666666666663" width="103" height="45.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Rules">
                                     <fontDescription key="titleFontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="27"/>
@@ -59,6 +59,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="KAu-F1-2Q3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KAu-F1-2Q3" firstAttribute="trailing" secondItem="JBB-sK-Jxf" secondAttribute="trailing" constant="145" id="3Yl-vp-u9o"/>
+                            <constraint firstItem="KAu-F1-2Q3" firstAttribute="bottom" secondItem="ocL-ka-XPH" secondAttribute="bottom" constant="71" id="854-fo-7Mp"/>
+                            <constraint firstItem="JBB-sK-Jxf" firstAttribute="top" secondItem="NQS-KN-odI" secondAttribute="bottom" constant="91" id="Jly-3l-B8p"/>
+                            <constraint firstItem="JBB-sK-Jxf" firstAttribute="leading" secondItem="KAu-F1-2Q3" secondAttribute="leading" constant="145" id="L1p-q1-FVO"/>
+                            <constraint firstItem="ocL-ka-XPH" firstAttribute="leading" secondItem="KAu-F1-2Q3" secondAttribute="leading" constant="142" id="SA7-X6-O8V"/>
+                            <constraint firstItem="NQS-KN-odI" firstAttribute="leading" secondItem="KAu-F1-2Q3" secondAttribute="leading" constant="74" id="cfQ-UU-iBn"/>
+                            <constraint firstItem="KAu-F1-2Q3" firstAttribute="trailing" secondItem="ocL-ka-XPH" secondAttribute="trailing" constant="142" id="hwp-br-4Ml"/>
+                            <constraint firstItem="ocL-ka-XPH" firstAttribute="top" secondItem="JBB-sK-Jxf" secondAttribute="bottom" constant="17" id="vsP-8c-teq"/>
+                            <constraint firstItem="KAu-F1-2Q3" firstAttribute="trailing" secondItem="NQS-KN-odI" secondAttribute="trailing" constant="74" id="ydz-0M-t1V"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="V5w-Aw-C5p"/>
                     <nil key="simulatedTopBarMetrics"/>
@@ -76,22 +87,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="СИТУАЦИЯ, НАСТРОЕНИЕ И Т.Д." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMn-DU-W3O">
-                                <rect key="frame" x="26" y="272" width="427" height="298"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMn-DU-W3O">
+                                <rect key="frame" x="16" y="272" width="361" height="298"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="СИТУАЦИЯ, НАСТРОЕНИЕ И Т.Д.">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="23"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Hyd-NA-Qdk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hyd-NA-Qdk" firstAttribute="bottom" secondItem="FMn-DU-W3O" secondAttribute="bottom" constant="272" id="0Wr-ab-T3R"/>
+                            <constraint firstItem="FMn-DU-W3O" firstAttribute="top" secondItem="Hyd-NA-Qdk" secondAttribute="top" constant="272" id="b1p-kG-OsC"/>
+                            <constraint firstItem="Hyd-NA-Qdk" firstAttribute="trailing" secondItem="FMn-DU-W3O" secondAttribute="trailing" constant="16" id="eat-nz-rEr"/>
+                            <constraint firstItem="FMn-DU-W3O" firstAttribute="leading" secondItem="Hyd-NA-Qdk" secondAttribute="leading" constant="16" id="myy-Qb-3qt"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="0xP-ag-pfa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNv-Hq-Kxy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2352" y="-1354"/>
+            <point key="canvasLocation" x="2350.3816793893129" y="-1354.2253521126761"/>
         </scene>
         <!--playZone-->
         <scene sceneID="tne-QT-ifu">
@@ -207,7 +229,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Основа rjytw" width="1179" height="2556"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
