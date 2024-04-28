@@ -8,22 +8,39 @@
 import UIKit
 
 class popUpWindow: UIViewController {
-
+    
+    @IBOutlet weak var situationLabel: UILabel!
+    @IBOutlet weak var moodLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        // Подгрузка Ситуации
+        
+        let SituationL1ID: Int16 = lobbyData[0].situationID
+        if let RoleId1 = StorageManager.shared.fetchSituationCards().first?.id,
+           let Situation = StorageManager.shared.fetchSituationCard(with: SituationL1ID) {
+            situationLabel.text = Situation.text
+        } else {
+            situationLabel.text = "No data available"
+        }
+        
+        
+        
+        
+        // Подгрузка Настроения
+        
+        let MoodL1ID: Int16 = lobbyData[0].moodID
+        if let mood = StorageManager.shared.fetchMoods().first?.id,
+           let Mood = StorageManager.shared.fetchMood(with: MoodL1ID) {
+            moodLabel.text = Mood.text
+        } else {
+            moodLabel.text = "No data available"
+        }
+        
+        
+        
+        
+        
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
