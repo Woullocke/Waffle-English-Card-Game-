@@ -22,7 +22,7 @@ class Settings: UIViewController {
         }
     }
     @IBAction func githubButton(_ sender: Any) {
-        if let url = URL(string: "https://github.com/Woullocke/Waffle-Project-in-progress-") {
+        if let url = URL(string: "https://github.com/Woullocke/Waffle-English-Card-Game-.git") {
             UIApplication.shared.open(url)
         }
     }
