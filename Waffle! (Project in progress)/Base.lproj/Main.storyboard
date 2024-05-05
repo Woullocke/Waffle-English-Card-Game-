@@ -91,7 +91,7 @@
             <objects>
                 <viewController title="popUpWindow" interactionActivityTrackingBaseName="popUpWindow" id="JZW-qB-NEw" customClass="popUpWindow" customModule="Waffle___Project_in_progress_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w8T-ZL-AWr">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Фон" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-ni-4Hi">
@@ -649,7 +649,7 @@
             <objects>
                 <viewController id="Nhm-vW-cMJ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Apr-2u-teK">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Правила" translatesAutoresizingMaskIntoConstraints="NO" id="gbx-vR-Hd2">
@@ -675,7 +675,7 @@
             <objects>
                 <viewController title="Settings" id="9kI-c5-Kp9" customClass="Settings" customModule="Waffle___Project_in_progress_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZT3-ju-ebI">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Фон" translatesAutoresizingMaskIntoConstraints="NO" id="swU-9u-kC7">

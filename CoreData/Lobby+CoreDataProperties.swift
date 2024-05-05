@@ -15,6 +15,8 @@ extension Lobby {
         return NSFetchRequest<Lobby>(entityName: "Lobby")
     }
 
+    // TODO: заменить на массив cards {id: Int16}[]
+
     @NSManaged public var aCardID1: Int16
     @NSManaged public var aCardID2: Int16
     @NSManaged public var aCardID3: Int16

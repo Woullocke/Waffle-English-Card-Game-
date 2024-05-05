@@ -106,6 +106,7 @@ class PlayZone: UIViewController {
         
         }
     
+    // TODO: много дублирования(во всех функциях этого класса), связанного с картами. надо заменить на функцию, которая получаем индекс. и делает нужно действие по индексу
     // функции смены изображения карт
     @IBAction func aCard1B(_ sender: Any) {
         aCard1.image = UIImage(named: "АктивнаяКартаЧБ")
@@ -124,6 +125,9 @@ class PlayZone: UIViewController {
     
     @IBAction func updateActiveButton(_ sender: Any) {
         
+        // TODO: я так понимаю, что случайная карта может быть у 2ух игроков сразу. есть это допускается, то ок.
+        // TODO: сделать отдельную функцию для генерации id карты
+        // TODO: массив карт
         // генерация случайных чисел
         lobbyData[0].aCardID1 = Int16(arc4random_uniform(103)) + 1
         lobbyData[0].aCardID2 = Int16(arc4random_uniform(103)) + 1
@@ -131,6 +135,7 @@ class PlayZone: UIViewController {
         lobbyData[0].aCardID4 = Int16(arc4random_uniform(103)) + 1
         lobbyData[0].aCardID5 = Int16(arc4random_uniform(103)) + 1
         
+        // TODO: выше же есть функция для назначения image. зачем здесь?
         aCard1.image = UIImage(named: "Карта")
         aCard2.image = UIImage(named: "Карта")
         aCard3.image = UIImage(named: "Карта")

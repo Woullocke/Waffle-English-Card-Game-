@@ -43,6 +43,7 @@ func processArrays(){
     
     
     
+    // TODO(некритично): дублирвоание кода: запускаем массив, проверяем на id. лучше это вынести в отдельную функцию, которая будет получать колбек при отсутствии записи в бд. туда можно будет запихнуть разные StorageManager.shared.create...()
     for roleTuple in rolesArray {
         // Проверяем, существует ли уже запись с таким id
         let fetchRequest: NSFetchRequest<Role> = Role.fetchRequest()

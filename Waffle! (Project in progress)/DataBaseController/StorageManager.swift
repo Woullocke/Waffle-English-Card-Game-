@@ -158,7 +158,7 @@ public final class StorageManager: NSObject{
         
         let SituationCard = SituationCard(entity: SituationCardEntityDescription, insertInto: context)
         SituationCard.id = id
-        SituationCard.text = text
+        SituationCard.text = text // TODO: здесь тоже надо сделать единые методы для crud операций с картами и их загрузки
         
         appDelegate.saveContext()
     }
@@ -197,8 +197,7 @@ public final class StorageManager: NSObject{
         lobby.aCardID3 = aCardID3
         lobby.aCardID4 = aCardID4
         lobby.aCardID5 = aCardID5
-        
-        
+        // TODO: массив карт
         
         appDelegate.saveContext()
     }
